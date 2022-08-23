@@ -1,0 +1,31 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.nav{
+    padding: 5px;
+}
+.nav-split{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.nav-left{
+    text-align: center;
+}
+
+.nav-logo{
+    width: 50px;
+}
+
+.nav-menus{
+    display: flex;
+    justify-content: center;
+}
+
+.pad-5{
+    padding: 5px;
+}
+.down-arrow{
+    width: 15px;
+}

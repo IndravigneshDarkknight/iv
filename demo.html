@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+        height: 100px;
+        width: 100%;
+        background-color: gray;
+    }
+
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, Sans-serif;
+        background-color: #070617;
+
+    }
+
+    .dummy_page {
+        height: 100px;
+        width: 100%;
+
+        text-align: justify;
+        box-sizing: border-box;
+        padding: 60px 0px;
+        font-size: large;
+        background-color: bisque;
+    }
+
+    .footer {
+        width: 100%;
+        position: relative;
+        height: auto;
+        background-color: #070617;
+    }
+
+    .footer .col {
+        width: 400px;
+        height: auto;
+        float: left;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        padding: 0px 20px 20px 20px;
+        background-color: gray;
+    }
+
+    .footer .col h1 {
+        margin: 0;
+        padding: 0;
+        font-family: inherit;
+        font-size: 12px;
+        line-height: 17px;
+        padding: 20px 0px 5px 0px;
+        color: black font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 0.250em;
+    }
+
+    .footer .col ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .footer .col ul li {
+        color: black ;
+        font-size: 14px;
+        font-family: inherit;
+        font-weight: bold;
+        padding: 5px 0px 5px 0px;
+        cursor: pointer;
+        transition: .2s;
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+    }
+
+
+    .footer .col ul li:hover {
+        color: #ffffff;
+        transition: .1s;
+        -webkit-transition: .1s;
+        -moz-transition: .1s;
+    }
+
+    .box {
+        background-color: #444;
+        color: #fff;
+
+        padding: 20px;
+        font-size: 150%;
+        height: 400px;
+        width: 400px;
+
+    }
+
+    .wrapper {
+        display: grid;
+        grid-template-columns: 500px 500px 500px;
+        grid-gap: 10px;
+        background-color: #fff;
+
+
+    }
+
+    
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .topnav {
+        overflow: hidden;
+        background-color: black;
+    }
+
+    .topnav a {
+        float: left;
+        display: block;
+        color: wheat;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav a:hover {
+        background-color: black;
+        color: white;
+        height: 10px;
+    }
+
+    .topnav a.active {
+        background-color: brown;
+        color: white;
+    }
+
+    .topnav input[type=text] {
+        float: right;
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        border: none;
+        font-size: 17px;
+    }
+    
+    @media only screen and (min-width: 1280px) {
+        .contain {
+            width: 1200px;
+            margin: 0 auto;
+        }
+    }
+
+    @media only screen and (max-width: 340px) {
+        .footer .col {
+            width: 100%;
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+
+        .topnav a,
+        .topnav input[type=text] {
+            float: none;
+            display: block;
+            text-align: left;
+            width: 100%;
+
+            margin: 0;
+            padding: 14px;
+        }
+
+        .topnav input[type=text] {
+            border: 1px solid #ccc;
+        }
+    }
+</style>
+
+<body>
+
+
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+        <input type="text" placeholder="Search..">
+    </div>
+
+    <div class="wrapper"
+        style="height: 900px; width: 100%; background-attachment: scroll; background-color: #ffffff ; background-image: url('2.jpg');">
+
+
+
+        <div class="box a">Mahendra Scorpio
+
+            <img src="11.jpg" alt="Girl in a jacket" style="width:300px;height:200px;border-radius: 10px;">
+            <h3>Rs 2,99,000</h1>
+                <h4>2015-31,000km</h4>
+                <a style="text-align: right; font-size: small;" href="google.com">Click here to view address</a>
+
+        </div>
+        <div class="box b">Maruti Suzuki
+            <img src="ertiga.jpg" alt="Girl in a jacket" style="width:300px;height:200px;border-radius: 10px;">
+            <h3>Rs 5,49,000</h1>
+                <h4>2013-81,000km</h4>
+        </div>
+        <div class="box c">i phone 8
+            <img src="ip.jpg" alt="Girl in a jacket" style="width:300px;height:200px;border-radius: 10px;">
+            <h3>Rs 10,000</h1>
+                <h4>2017- usable condition</h4>
+        </div>
+        <div class="box d">Maruti alto 800
+            <img src="alto.jpg" alt="Girl in a jacket" style="width:300px;height:200px;border-radius: 10px;">
+            <h3>Rs 1,00,000</h1>
+                <h4>2010-100,000km</h4>
+        </div>
+        <div class="box e">4k Projector
+            <img src="proj.jpg" alt="Girl in a jacket" style="width:300px;height:200px;border-radius: 10px;">
+            <h3>Rs 6,400</h1>
+                <h4>2022-Brandnew</h4>
+        </div>
+
+        <div class="box f">Frame
+            <img src="wall frame.jpg" alt="Girl in a jacket" style="width:300px;height:200px;border-radius: 10px;">
+            <h3>Rs 3500</h1>
+                <h4>brandnew</h4>
+        </div>
+
+
+
+    </div>
+    <div class="dummy_page">
+        <h1>TRY THE OLX APP</h1>
+        <h6>Buy, sell and find just about anything using the app on your mobile</h6>
+    </div>
+
+    <div class="footer">
+        <div class="contain">
+            <div class="col">
+                <h1>POPULAR LOCATIONS</h1>
+                <ul>
+                    <li>kolkata</li>
+                    <li>Mumbai</li>
+                    <li>chennai</li>
+                    <li>Delhi</li>
+                    <li>pune</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>About Us</h1>
+                <ul>
+                    <li>About olx group</li>
+                    <li>careers</li>
+                    <li>contact us</li>
+                    <li>OLX people</li>
+                    <li>waah jobs</li>
+                </ul>
+            </div>
+            <div class="col">
+                <h1>OLX</h1>
+                <ul>
+                    <li>Help</li>
+                    <li>Site map</li>
+                    <li>Legal & privacy info</li>
+                    <li>Blog</li>
+                    <li>other info</li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
